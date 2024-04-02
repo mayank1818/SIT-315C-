@@ -46,7 +46,7 @@ void sequentialquicksort(vector<int>& array, int min, int max) {
 
 int main() {
     // Set the size of the vector
-    size_t vectorSize = 1000000;
+    size_t vectorSize = 20000000;
 
     // Generate a random vector
     vector<int> array = generateVector(vectorSize);
